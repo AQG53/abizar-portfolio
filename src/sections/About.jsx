@@ -35,7 +35,7 @@ const About = () => {
 
                     <div>
                         <p className='grid-headtext'>Tech Stack</p>
-                        <p className='grid-subtext'>I specialize in full-stack development using React, Express.js, Node.js, and have experience with both MongoDB and MySQL databases. I am also proficient in core web technologies including HTML, CSS, and JavaScript/TypeScript.</p>
+                        <p className='grid-subtext'> I specialize in full-stack development using React, Express.js, and Node.js, with experience in both MongoDB and MySQL databases. I’m also proficient in core web technologies including HTML, CSS, and JavaScript/TypeScript, and have hands-on experience in 3D web design using Three.js.</p>
                     </div>
                 </div>
             </div>
