@@ -60,7 +60,7 @@ const Contact = () => {
                     Whether you are looking to build a new website, improve your existing platform, or bring a unique project to life, I am here to help.
                 </p>
 
-                <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-2">
+                <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col space-y-7">
                     <label className="space-y-3">
                         <span className="field-label">Full Name</span>
                         <input 
