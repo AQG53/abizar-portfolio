@@ -131,6 +131,38 @@ export const myProjects = [
       },
     ],
   },
+  {
+    title: 'MoviVerse - Movie Discovery Web App',
+    desc: 'MoviVerse is a sleek and responsive web application for discovering trending and top-rated movies. Built with React and powered by the TMDB API, it offers a seamless movie search and browsing experience.',
+    subdesc:
+      'Whether you are exploring the latest blockbusters or searching for hidden gems, MoviVerse delivers real-time results in a smooth, dark-themed interface tailored for movie lovers.',
+    href: 'http://movi-verse.vercel.app',
+    texture: '/textures/project/project3.mp4',
+    logo: '/assets/project-logo3.png',
+    logoStyle: {
+      backgroundColor: '#030014',
+      border: '0.2px solid #1C1C3A',
+      boxShadow: '0px 0px 60px 0px #AB8BFF4D',
+    },
+    spotlight: '/assets/spotlight-moviverse.png',
+    tags: [
+      {
+        id: 1,
+        name: 'React.js',
+        path: '/assets/react.svg',
+      },
+      {
+        id: 2,
+        name: 'Tailwind CSS',
+        path: '/assets/tailwindcss.png',
+      },
+      {
+        id: 2,
+        name: 'Appwrite',
+        path: '/assets/appwrite.png',
+      },
+    ],
+  }
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {

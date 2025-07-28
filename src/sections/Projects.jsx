@@ -42,13 +42,16 @@ const Projects = () => {
                 <div className='flex items-center justify-between flex-wrap gap-5'>
                   <div className='flex items-center gap-3'>
                     {currentProject.tags.map((tag, index) => (
-                      <div key={index} className='tech-logo'>
+                      <div key={index} className='relative group tech-logo' title={tag.name}>
                         <img src={tag.path} alt={tag.name}/>
+                          <div className='absolute bottom-full mb-2 left-1/2 -translate-x-1/2 whitespace-nowrap px-2 py-1 text-xs text-white bg-black rounded opacity-0 group-hover:opacity-100 transition'>
+                            {tag.name}
+                          </div>
                       </div>
                     ))}
                   </div>
 
-                  <a className='flex items-center gap-2 cursor-pointer text-white-600' href="">
+                  <a className='flex items-center gap-2 cursor-pointer text-white-600' href={currentProject.href} target='_blank' rel='noopener noreferrer'>
                     <p>Check Live Site</p>
                     <img src="/assets/arrow-up.png" alt="arrow" className='w-3 h-3'/>
                   </a>
